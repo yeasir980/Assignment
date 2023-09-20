@@ -1,6 +1,5 @@
 <?php 
 
-echo "Task 1.1 : Even Number Using For Loop <br><br>";
 function evenNumberUsingForLoop($start, $end, $step){
     for ($i= $start; $i <= $end ; $i += $step) { 
         
@@ -11,9 +10,6 @@ function evenNumberUsingForLoop($start, $end, $step){
 }
 
 evenNumberUsingForLoop(1,20,1);
-
-echo "<br>Task 1.2 Print Even Numbers Using While Loop. <br><br>";
-
 
 function evenNumberUsingWhileLoop($start, $end, $step){
     $i = $start;
@@ -27,8 +23,6 @@ function evenNumberUsingWhileLoop($start, $end, $step){
 
 evenNumberUsingWhileLoop(1,20,1);
 
-
-echo "<br>Task 1.3 Print Even Numbers Using Do While Loop. <br><br>";
 function evenNumberUsingDoWhileLoop($start, $end, $step){
     $i = $start;
     do {
